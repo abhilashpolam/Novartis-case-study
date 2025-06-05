@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.logo{
+    width: 95px;
+    height: 90px;
+    position: relative;
+    top:-480px;
+    left:180px;
+}
+#banner{
+    width: 100%;
+}
+#logo{
+    width: 100%;
+}
+#title{
+    width: 480px;
+    position: relative;
+    left: 180px;
+    top: -425px;
+    color: white;
+    font-weight: 600;
+}
+#btn1{
+    padding:18px 40px;
+    border: none;
+    background-color:#0095ff;
+    border-radius: 45px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    left: 180px;
+    top: -365px;
+    font-size: 15px;
+
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    margin-top: -260px;
+}
+.sides{
+    width: 450px;
+}
+.sides h2{
+    font-family: sans-serif;
+    font-variant: normal;
+    font-weight: 100;
+    color: #74c4ff;
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+}
+.form-box{
+    width: 300px;
+    border: 1px dotted rgb(77, 8, 189);
+    margin-left: 100px;
+    border-radius: 15px;
+}
+.form-box p{
+    background-color: #262262;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+}
+.form-box input,select {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+.phone-input {
+    display: flex;
+    width: 86%;
+}
+.phone-input select {
+    width: 80px;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 1.2rem;
+}
+.checkbox-container input {
+    margin-right: -63px;
+    color: #007bff;
+}
+#updates{
+    margin-left: -39px;
+}
+#btn2{
+    width: 60%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#lines-bg{
+    width: 100%;
+    margin-top: 100px;
+    z-index: -9;
+}
+.section3-box{
+    width: 80%;
+    height: 300px;
+    background: linear-gradient(rgba(32,87,185,0.7), rgba(28,135,222,0.7));
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: white;
+    position: relative;
+    top: -285px;
+    left: 118px;
+}
+.section3-box p{
+    margin: 10px 20px 5px 77px;
+}
+.box-header h3{
+    padding: 80px 5px 0 70px;
+    font-family: sans-serif;
+    font-variant: normal;
+    font-weight: 100;
+    font-size: 30px;
+}
+.section4{
+    margin-top: -190px;
+}
+.section4 #bg2{
+    width: 100%;
+}
+.section4-boxes{
+    position: relative;
+    left: 190px;
+    top: -600px;
+}
+.boxes{
+    width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section4-boxes .col{
+    width: 190px;
+    height: 200px;
+    border: 1px solid blue;
+    color: white;
+    margin: 10px 10px;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.section4-boxes .col p{
+    padding: 10px 0 0 0;
+}
+.section4-boxes h3{
+    font-family: sans-serif;
+    font-variant: normal;
+    font-weight: 100;
+    color: #74c4ff;
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+}
+.section5{
+    background-color: #4fb6ff;
+    margin-top: -508px;
+    padding: 40px 0;
+    height: 400px;
+    padding-top: 82px;
+}
+.social-media a{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    padding-right: 140px;
+    font-size: 30px;
+}
+.social-media{
+    margin-left: 41px;
+    margin-top: 20px;
+    
+}
+.nav-links{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 25px 0;
+    border-left: none;
+    border-right: none;
+}
+.nav-links a{
+    text-decoration: none;
+    padding-right: 30px;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+}
+.section5 p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+#copyright{
+    padding: 20px 0;
+    color: white;
+}
